@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyClass{
+  background-color: #FAEDC6;
+}
+
+.nav-bar {
+  background-color: #FEA82F;
+}
+
+/* ================================main body content================================================= */
+.profile-image {
+  width: 20%;
+  margin: 1rem;
+  position: relative;
+  left: 40%;
+  border-radius: 50%;
+}
+.icons{
+  display: inline-block;
+}
+.profile-icons {
+  width: 5%;
+  position: relative;
+  left: 40%;
+  margin: 1rem;
+}
+.profile-text{
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.professional-animations{
+  padding: 2rem;
+  animation-name: left-sliding;
+  animation-duration: 1s;
+
+}
+.pro-Logo {
+  width: 5%;
+  margin: 1rem;
+  position: relative;
+  left: 40%;
+}
+/* skill section */
+.skills{
+  text-align: center;
+}
+.skills-title {
+  text-align: center;
+  width: 60%;
+  margin: 1rem auto;
+}
+/* ====================id customizable=================== */
+#dropdownMenu {
+  background-color: #FAEDC6;
+}
+/* ===========================animation section===================== */
+@keyframes left-sliding {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  background-color: #FFBD35;
+}
+/* media query breakpoint for mobile screens */
+@media (max-width: 400px){
+  .profile-image {
+    width: 40%;
+    left: 30%;
+  }
+  .pro-Logo{
+    width: 15%;
+    left: 12%;
+  }
+  .profile-icons {
+    width: 10%;
+    left: 18%;
+  }
+}
