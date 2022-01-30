@@ -73,6 +73,7 @@ body {
 }
 footer {
   background-color: #FFBD35;
+  margin: 2rem auto 0;
 }
 /* media query breakpoint for mobile screens */
 @media (max-width: 400px){
