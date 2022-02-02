@@ -3,7 +3,7 @@
 
 // -------------------------------------------Important------------------------------------------------------------------
 document.querySelector(".education").addEventListener("click", function(){
-  alert("this is unauthorized area... YOu must have access to get documents here...")
+  alert("This is a confidential Area. All Documents are private and unauthorized usage of these documents are prohibited ©2022")
 });
 
 // $(".education").click(function(){

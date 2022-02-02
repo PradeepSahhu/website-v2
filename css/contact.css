@@ -5,11 +5,12 @@ body {
 }
 
 .bodyClass{
-  background-color: #FAEDC6;
+  background-color: #FAEEE7 ;
 }
 
+
 .nav-bar {
-  background-color: #FEA82F;
+  background-color: #24A19C;
 }
 
 /* ================================main body content================================================= */
@@ -57,7 +58,7 @@ body {
 }
 /* ====================id customizable=================== */
 #dropdownMenu {
-  background-color: #FAEDC6;
+  background-color: #03C4A1;
 }
 /* ===========================animation section===================== */
 @keyframes left-sliding {
@@ -72,7 +73,7 @@ body {
   }
 }
 footer {
-  background-color: #FFBD35;
+  background-color: #A4B494;
   margin: 2rem auto 0;
 }
 /* media query breakpoint for mobile screens */
