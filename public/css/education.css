@@ -1,0 +1,98 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+p {
+ font-weight:bold;
+}
+.nav-bar {
+  background-color: #24A19C;
+}
+.bodyClass{
+  background-color: #FAEEE7;
+}
+.table-box {
+  margin: 80px auto;
+  color: #03C4A1;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.table-row {
+  display: table;
+  width: 90%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 12px;
+  color: #555;
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+.table-cell {
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  padding: 10px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+}
+.table-head {
+  background: #A4B494;
+  box-shadow: none;
+  color: black;
+  font-weight: 600;
+}
+.table-head .table-cell {
+  border-right: none;
+}
+.last-cell {
+  border-right: none;
+}
+.parag1 {
+  margin-left: 20px;
+}
+.parag1 p {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.parag1 h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 27px;
+  text-decoration: underline;
+}
+.parag1 h3 p {
+  font-size: 27px;
+  padding-left: 50px;
+  margin-top: 20px;
+  font-weight: 120;
+}
+.table-box2 {
+  margin-top: 40px;
+  color: rgb(24, 161, 161);
+}
+.publication h2 {
+  margin-top: 25px;
+  color: rgb(24, 161, 161);
+}
+.publication p {
+  font-size: 25px;
+  margin: 25px 0 20px 0;
+  padding-left: 15px;
+}
+.books h2 {
+  margin-top: 25px;
+  color: rgb(24, 161, 161);
+}
+
+.books p {
+  font-size: 25px;
+  margin: 0 0 80px 30px;
+}
+.books a {
+  text-decoration: none;
+}

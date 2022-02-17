@@ -1,0 +1,39 @@
+
+    <!-- navigation bar using bootstrap -->
+
+    <nav class= "navbar navbar-expand-lg navbar-light nav-bar">
+       <div class="container-fluid">
+        <a class="navbar-brand " href="index.html">
+          <img class= "img-responsive" src="/images/logo.png"  width="50" height="50" > <%= pageTitle %>
+        </a>
+         <button type="button" class= "navbar-toggler" data-bs-toggle="collapse" data-bs-target="#centricArea" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="centricArea">
+           <ul class="navbar-nav ms-auto">
+             <li class="nav-item">
+               <a class= "nav-link active" href="/" target="_blank">Home</a>
+             </li>
+             <li class="nav-item dropdown" >
+               <a  class= "nav-link dropdown-toggle active" href="#" id="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+               <ul id="dropdownMenu" class="dropdown-menu "  aria-labelledy="dropdown">
+                 <li> <a class="dropdown-item"  href="#">Main</a></li>
+                 <li> <a class="dropdown-item" href="#">Project 1</a></li>
+                 <li> <a class="dropdown-item" href="#">Project 2</a></li>
+                 <li> <a class="dropdown-item" href="#">Project 3</a></li>
+               </ul>
+             </li>
+             <li class="nav-item ">
+               <a class= "nav-link active" href="#">Portfolio</a>
+             </li>
+             <li class="nav-item education ">
+               <a class= "nav-link active" href="/Education" target="_blank">Education</a>
+             </li>
+             <li class="nav-item ">
+               <a class= "nav-link active" href="/contact" target="_blank">Contact</a>
+             </li>
+           </ul>
+         </div>
+      </div>
+    </nav>
+    <!-- navigation bar end here  -->

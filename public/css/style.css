@@ -1,0 +1,222 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyClass{
+  background-color: #E5E3C9;
+}
+
+.nav-bar {
+  background-color: #24A19C;
+}
+.robo{
+  position: relative;
+  margin: 1rem 0;
+  left: 56rem;
+}
+.robo-sign{
+  width: 60%;
+  display: inline-block;
+}
+.typing-effect{
+  color:black;
+  position: relative;
+  bottom: 35rem;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.box-typing {
+  width: 50%;
+  color: white;
+}
+.icon-img{
+  width: 25%;
+  height: 1%;
+}
+/* ------------------------------button style--------- */
+.button {
+  position: absolute;
+  bottom: 40%;
+  left: 2rem;
+  padding: 0.6rem 0.8rem;
+  width:15%;
+  background-color: #24A19C;
+  border: none;
+  text-decoration: none;
+  animation-name: sliding-effect;
+  animation-duration: 1s;
+}
+.button-2{
+  position: absolute;
+  bottom: 40%;
+  left: 20rem;
+  padding: 0.6rem 0.8rem;
+  width: 15%;
+  background-color: #24A19C;
+  border: none;
+  text-decoration: none;
+  animation-name: sliding-effect-2;
+  animation-duration: 0.8s;
+}
+.button-3{
+  position: absolute;
+  bottom: 40%;
+  left: 38rem;
+  padding: 0.6rem 0.8rem;
+  width: 15%;
+  background-color: #24A19C;
+  border: none;
+  text-decoration: none;
+  animation-name: sliding-effect-3;
+  animation-duration: 0.8s;
+}
+/* -------------Keyframes animation effect------------------------------------- */
+@keyframes sliding-effect {
+  0%{
+   opacity: 0;
+  }
+  /* 50%{
+    left: 1rem;
+    opacity: 0.5;
+  } */
+  100%{
+    left: 2rem;
+    opacity: 1
+  }
+}
+@keyframes sliding-effect-2 {
+  0%{
+    left:0;
+    opacity: 0;
+  }
+  /* 25%{
+    left:5
+    opacity:0.25;
+  }
+  50%{
+    left: 10rem;
+    opacity: 0.5;
+  }
+  75%{
+    left: 15rem;
+    opacity: 0.75;
+  } */
+  100%{
+    left: 20rem;
+    opacity: 1;
+  }
+}
+@keyframes sliding-effect-3 {
+  0%{
+    left: 0;
+    opacity: 0;
+  }
+  /* 25%{
+    left:9.5rem;
+    opacity:0.25;
+  }
+  50%{
+    left: 19rem;
+    opacity: 0.5;
+  }
+  75%{
+    left:28.5rem;
+    opacity:;
+  } */
+  100%{
+    left: 38rem;
+    opacity: 1
+  }
+}
+
+/* =======================Hierarchy inline>internal>id>external>class=================== */
+#dropdownMenu{
+  background-color: #AEFEFF;
+}
+/* ---------------------------------------Media query breakpoint------------------------ */
+/* =======================================for mobile size===================================== */
+@media (max-width: 400px) {
+  .robo {
+    width: 60%;
+    position: relative;
+
+    left:40%;
+    margin: 1rem 0;
+  }
+  .robo-sign {
+    width: 50%;
+    display:inline-block;
+    bottom: 90%;
+  }
+  .typing-effect{
+    color:#30E3CA;
+    position: relative;
+    bottom: 12rem;
+    /* margin: 1rem; */
+    font-size: 1rem;
+  }
+  .icon-img{
+    width: 120%;
+  }
+  .button{
+    position: absolute;
+    left: 2rem;
+    bottom: 5%;
+    animation-name: sliding-effect;
+    animation-duration: 1s;
+   }
+  .button-2{
+    position: absolute;
+    bottom: 5%;
+    left: 7rem;
+    animation-name: sliding-effect-2;
+    animation-duration: 0.8s;
+    }
+  .button-3{
+    position: absolute;
+    bottom: 5%;
+    left: 12rem;
+    animation-name: sliding-effect-3;
+    animation-duration: 0.8s;
+    }
+
+    /* --------------------------keyframes in mobile-------------------- */
+    @keyframes sliding-effect {
+      0%{
+       opacity: 0;
+      }
+      100%{
+        left: 2rem;
+        opacity: 1;
+      }
+    }
+    @keyframes sliding-effect-2 {
+      0%{
+        left:0;
+        opacity: 0;
+      }
+      100%{
+        left: 7rem;
+        opacity: 1;
+      }
+    }
+    @keyframes sliding-effect-3 {
+      0%{
+        left: 0;
+        opacity: 0;
+      }
+      100%{
+        left: 12rem;
+        opacity: 1;
+      }
+    }
+}
+/* --------------------media query breakpoint maxwidth: 800px----------- */
+ /* ===========================for tablet size====================== */
+/* @media screen and (min-width: 401px) and (max-width: 1200px){
+
+} */
