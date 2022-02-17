@@ -1,16 +1,17 @@
 
 body {
+  box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .bodyClass{
-  background-color: #252A34 ;
+  background-color: #FAEEE7;
 }
 
 .nav-bar {
-  background-color: #FEA82F;
+  background-color: #24A19C;
 }
 .robo{
   position: relative;
@@ -22,7 +23,7 @@ body {
   display: inline-block;
 }
 .typing-effect{
-  color:#30E3CA;
+  color: #2C3333;
   position: relative;
   bottom: 35rem;
   margin: 1rem;

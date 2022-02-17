@@ -9,3 +9,5 @@ document.querySelector(".education").addEventListener("click", function(){
 // $(".education").click(function(){
 //   alert("this is unauthorized area");
 // });
+
+
