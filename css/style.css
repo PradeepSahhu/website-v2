@@ -1,18 +1,14 @@
 
-body {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+::selection{
+  color: white;
+  background-color: black;
 }
 
 .bodyClass{
   background-color: #FAEEE7;
 }
 
-.nav-bar {
-  background-color: #24A19C;
-}
+
 .robo{
   position: relative;
   margin: 1rem 0;
@@ -45,7 +41,7 @@ body {
   left: 2rem;
   padding: 0.6rem 0.8rem;
   width:15%;
-  background-color: aqua;
+  background-color: #24A19C;
   border: none;
   text-decoration: none;
   animation-name: sliding-effect;
@@ -57,7 +53,7 @@ body {
   left: 20rem;
   padding: 0.6rem 0.8rem;
   width: 15%;
-  background-color: aqua;
+  background-color: #24A19C;
   border: none;
   text-decoration: none;
   animation-name: sliding-effect-2;
@@ -69,7 +65,7 @@ body {
   left: 38rem;
   padding: 0.6rem 0.8rem;
   width: 15%;
-  background-color: aqua;
+  background-color: #24A19C;
   border: none;
   text-decoration: none;
   animation-name: sliding-effect-3;
@@ -136,7 +132,7 @@ body {
 
 /* =======================Hierarchy inline>internal>id>external>class=================== */
 #dropdownMenu{
-  background-color: #AEFEFF;
+  background-color: #25b1a5;
 }
 /* ---------------------------------------Media query breakpoint------------------------ */
 /* =======================================for mobile size===================================== */
@@ -216,8 +212,5 @@ body {
       }
     }
 }
-/* --------------------media query breakpoint maxwidth: 800px----------- */
- /* ===========================for tablet size====================== */
-/* @media screen and (min-width: 401px) and (max-width: 1200px){
+/* ----------------Css JS effects on click and another functions----------- */
 
-} */
